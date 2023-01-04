@@ -46,4 +46,3 @@ cucumber.publish.enabled=true
 * https://www.toolsqa.com/cucumber-automation-framework/
 * https://www.w3schools.com/java/
 * https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html
-![image](https://user-images.githubusercontent.com/115479503/210460838-f44f9c8b-57d6-4bba-b153-c61402e2d413.png)

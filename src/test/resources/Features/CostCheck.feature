@@ -20,6 +20,6 @@ Feature: NHS Cost Check Service
   @Acceptance
   Scenario: Cost checking for Northern Ireland
     When I put circumstance country as "Northern Ireland"
-    Then I should get a result for Northern Ireland
+    Then I should get cannot use this service because you live in Northern Ireland
 
 

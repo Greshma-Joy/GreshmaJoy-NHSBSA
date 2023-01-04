@@ -63,7 +63,7 @@ public class CostCheckSteps
     {
         cc.selectCountry(country);
     }
-    @Then("I should get a result for Northern Ireland")
+    @Then("I should get cannot use this service because you live in Northern Ireland")
     public void userShouldGetResultforNorthernIreland() {
         Assert.assertEquals("true",cc.getPageTitle());
     }

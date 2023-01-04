@@ -21,11 +21,11 @@ The complete list of tools, you can see in the `pom.xml` file.
 * Open the project using any Java IDE
 * Run the tests with the script below
 ```shell
-$ mvn clean install
+$ mvn test
 ```
 * If you want to run the specific test, use the cucumber tags like this
 ```shell
-$ mvn clean install -Dcucumber.options="--tags @Acceptance"
+$ mvn test -Dcucumber.options="--tags @Acceptance"
 ```
 * If you want to run the test in different browsers, just go to `configuration.properties` then change the value of browser to `chrome` or `firefox`
 ```properties

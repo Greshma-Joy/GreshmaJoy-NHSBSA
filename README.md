@@ -27,16 +27,19 @@ $ mvn clean install
 ```shell
 $ mvn clean install -Dcucumber.options="--tags @Acceptance"
 ```
-* If you want to run the test in different browsers, , just go to `src/test/resources/cucumber.properties` then change the value to be `true`
+* If you want to run the test in different browsers, just go to `configuration.properties` then change the value of browser to `chrome` or `firefox`
+```properties
+browser = firefox
+browser = chrome
+```
 
 ## Test Results
 * Test report automatically generated on `target` folder and `ExtentReports` folder once the test execution is completed.
 * See test report from `target/cucumber-reports/advanced-reports/cucumber.json`
 * Can also see test report from ` ExtentReports/ SparkReport_ /Reports/Spark.html `
-* You can see Cucumber Report at https://reports.cucumber.io/reports/, just go to `configuration.properties` then change the value of browser to `chrome` or `firefox`
+* You can see Cucumber Report at https://reports.cucumber.io/reports/, just go to `src/test/resources/cucumber.properties` then change the value to be `true`
 ```properties
-browser = firefox
-browser = chrome
+cucumber.publish.enabled=true
 ```
 * For more information about reports cucumber you can go to https://reports.cucumber.io/docs/cucumber-jvm
 
